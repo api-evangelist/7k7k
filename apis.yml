@@ -1,7 +1,24 @@
 aid: 7k7k
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/7k7k.png
 name: 7k7k
-description: 7k7k is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 7k7k (7k7k.com) is a Chinese online casual gaming portal operating a consumer-facing
+  website that aggregates hundreds of free browser-based mini games across action, role-playing,
+  strategy, puzzle, and two-player categories. Surfaced as a portfolio company of the venture firm
+  Qiming and added to the API Evangelist network as a stub for enrichment. The 7k7k property is a
+  consumer web destination and publishes no public developer platform, API, SDK, or developer
+  documentation; enrichment probes confirmed no OpenAPI, no .well-known discovery documents, and no
+  security-disclosure or trust-center program at this time.
 url: https://raw.githubusercontent.com/api-evangelist/7k7k/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Gaming
+- Games
+- Web Games
+- Casual Games
+- Entertainment
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/7k7k-domain-security.yml
 - type: Website
   url: https://7k7k.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
